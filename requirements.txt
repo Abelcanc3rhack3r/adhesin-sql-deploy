@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+streamlit
+google-genai
+requests
+pandas
+py3Dmol
+stmol

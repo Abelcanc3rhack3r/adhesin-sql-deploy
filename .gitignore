@@ -1,0 +1,20 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ALP/
+
+# Streamlit/FastAPI junk
+.streamlit/
+.pytest_cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Exclude bulky protein structures
+structures/
