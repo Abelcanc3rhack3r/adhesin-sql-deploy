@@ -16,5 +16,4 @@ ALP/
 .DS_Store
 Thumbs.db
 
-# Exclude bulky protein structures
-structures/
+
