@@ -6,7 +6,7 @@ import py3Dmol
 from stmol import showmol
 
 st.set_page_config(page_title="Protein DB Viewer", layout="wide")
-st.title("🧬 Structural Protein Retrieval Dashboard")
+st.title("🧬 Adhesin  Like Protein Database")
 
 API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
 
@@ -21,7 +21,7 @@ if "query_performed" not in st.session_state:
     st.session_state.query_performed = False
 
 # 2. SIDEBAR: AI QUERY BOX
-st.sidebar.header("✨ AI Command Center")
+st.sidebar.header("✨ AI Query")
 nl_query = st.sidebar.text_area("Natural Language Query:", placeholder="Color ABD red and show stad-1")
 
 if st.sidebar.button("Run AI Query"):
